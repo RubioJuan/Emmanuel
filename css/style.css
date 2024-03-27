@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #1e1d2b;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.content{
+    background-color: #151517;
+    min-height: 80px;
+}
+.menu{
+    position: absolute;
+    top: 10px;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    font-size: 25px;
+    color: rgb(96, 50, 223);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.menu .navbar ul li{
+    position: relative;
+    float: left;
+}
+.menu .navbar ul li a{
+    font-size: 18px;
+    padding: 20px;
+    color: white;
+    display: block;
+    font-weight: bold;
+}
+.menu .navbar ul li a:hover{
+    color: rgb(96, 50, 223);
+}
+#menu{
+    display: none;
+}
+.menu-icono{
+    width: 25px;
+}
+.menu label{
+    cursor: pointer;
+    display: none;
+}
+
+@media(max-width:991px){
+    .content{
+        min-height: 70px;
+    }
+    .menu{
+        top: 0;
+        padding: 20px;
+    }
+    .menu label{
+        display: initial;
+    }
+    .menu .navbar{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: #151517;
+        display: none;
+    }
+    .menu .navbar ul li{
+        width: 100%;
+    }
+    #menu:checked ~ .navbar{
+        display: initial;
+    }
+}
+.logoHouse{
+	width: 55px;
+	height: auto;
+	background-color: rgba(187, 186, 183, 0.473);
+	border-radius: 80%;
+    transition: transform 0.5s ease; /* Agregamos una transición suave */
+}
+@keyframes voltear {
+    0% {
+        transform: rotateY(0deg);
+    }
+    100% {
+        transform: rotateY(180deg);
+    }
+}
+.logoHouse:hover {
+    animation: voltear 1s ease; /* La imagen girará cuando el mouse esté encima */
+}
+/* Estilos base */
+.titulo {
+    color: white;
+    margin: 20px; /* Ajusta el margen para mayor separación de la pantalla */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centra verticalmente el contenido */
+    align-items: center; /* Centra horizontalmente el contenido */
+    text-align: center; /* Alinea el texto al centro */
+}
+
+.logo {
+    max-width: 100%; /* Establece un ancho máximo para la imagen */
+    height: auto; 
+    border-radius: 15px;
+    transition: all 0.4s ease-in-out;
+}
+
+.logo:hover {
+    transform: scale(1.05);
+}
+
+.containerInfo {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    align-items: center; /* Centra los elementos verticalmente */
+    margin: 20px; /* Agrega un margen alrededor del contenedor */
+}
+
+/* Media query para pantallas de hasta 768px de ancho */
+@media screen and (max-width: 768px) {
+    .containerInfo {
+        grid-template-columns: 1fr; /* Cambia a una sola columna */
+    }
+    
+    .logo {
+        max-width: 80%; /* Limita el ancho máximo de la imagen */
+    }
+}
+
+/* Media query para pantallas de hasta 480px de ancho */
+@media screen and (max-width: 480px) {
+    .titulo {
+        margin: 10px; /* Ajusta el margen para pantallas más pequeñas */
+    }
+}
