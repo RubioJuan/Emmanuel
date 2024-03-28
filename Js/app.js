@@ -1,0 +1,1 @@
+//Infromacion de imagenes dinamicas, con su resectiva informacion 
