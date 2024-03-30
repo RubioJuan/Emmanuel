@@ -26,12 +26,6 @@ body{
     align-items: center;
     justify-content: space-between;
 }
-.logo{
-    font-size: 25px;
-    color: rgb(96, 50, 223);
-    text-transform: uppercase;
-    font-weight: bold;
-}
 .menu .navbar ul li{
     position: relative;
     float: left;
@@ -231,4 +225,131 @@ body{
     text-align: center;
     color: rgb(204, 198, 198);
     font-size: 30px;
+}
+
+.informacion {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    /* box-shadow Agrega un efecto de sombra al contenedor.  */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.subtitulo1 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.subtitulo2 {
+    color: #333;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.parrafo {
+    color: #555;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+@media screen and (max-width: 600px) {
+    .informacion {
+        padding: 10px;
+    }
+    .subtitulo1 {
+        font-size: 20px;
+    }
+    .subtitulo2 {
+        font-size: 18px;
+    }
+    .parrafo {
+        font-size: 14px;
+    }
+}
+
+
+/* Estilos para el contenedor principal */
+.contenedor {
+    display: flex;
+    flex-direction: column; /* Organiza los elementos en columna */
+    align-items: center; /* Centra horizontalmente los elementos */
+}
+
+/* Estilos para el título */
+.titulo {
+    margin-bottom: 20px; /* Espacio entre el título y las imágenes */
+}
+
+/* Estilos para el contenedor de propiedades */
+.contenedor-propiedades {
+    display: flex;
+    flex-wrap: wrap; /* Permite que las imágenes se envuelvan cuando no hay suficiente espacio */
+    justify-content: center; /* Centra horizontalmente las imágenes */
+}
+
+/* Estilos para cada aire acondicionado */
+.aire {
+    width: 300px;
+    background-color: #dac9c9;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    margin: 10px; /* Espacio entre las imágenes */
+}
+
+.div-titulo1 {
+    padding: 15px;
+}
+
+.div-titulo1 img {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.div-titulo1 button.ver {
+    background-color: #2b67a7e1;
+    color: #fff;
+    display: block; 
+    margin: 0 auto; 
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 30%;
+    height: auto;
+}
+
+/* Estilos para el modal */
+.modalContainer {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+    background-color: rgba(196, 180, 180, 0.925);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    color: #333;
+    cursor: pointer;
 }
