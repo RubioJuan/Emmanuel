@@ -25,7 +25,7 @@ const aires = [
         "id": "Aire4",
         "about": "Compacto y fácil de instalar en una ventana, el aire acondicionado de ventana es ideal para enfriar habitaciones individuales en hogares o apartamentos.",
         "picture": "https://codigocalderas.com/wp-content/uploads/2022/06/aire-acondicionado-ventana-1024x512.jpg",
-    "squarePic": "https://lumiproduct.oss-cn-hongkong.aliyuncs.com/2022/08/15/62f9ae15327ffa00020fc92f.jpg",
+    "squarePic": "https://http2.mlstatic.com/D_NQ_NP_730427-MCO46778312107_072021-O.webp",
         "name": "Aire Acondicionado de Ventana"
     }
 ]

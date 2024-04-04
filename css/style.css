@@ -226,7 +226,9 @@ body{
     color: rgb(204, 198, 198);
     font-size: 30px;
 }
-
+.texto{
+    padding: 15px;
+}
 .informacion {
     max-width: 800px;
     margin: 20px auto;
@@ -292,7 +294,7 @@ body{
 }
 
 /* Estilos para cada aire acondicionado */
-.aire {
+.aire, .lavadora{
     width: 300px;
     background-color: #dac9c9;
     border-radius: 10px;
