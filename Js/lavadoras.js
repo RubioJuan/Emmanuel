@@ -12,7 +12,9 @@ const lavadoras = [
         "picture": "https://electroluxco.vtexassets.com/arquivos/ids/161489/XS0BZL8B59JA20WQ.jpg?v=637931682942400000",
         "squarePic": "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img/https://www.hisensecac.com/wp-content/uploads/2023/02/570x480-wty2302T-Producto6.jpg",
         "name": "Lavadora de Carga Superior"
-    },
+    }
+]
+const Lavadoras1 = [
     {
         "id": "Lavadora3",
         "about": "Lavadora-secadora con capacidad para 10 kg de lavado y 6 kg de secado, ideal para hogares con poco espacio.",
@@ -26,15 +28,9 @@ const lavadoras = [
         "picture": "https://falabella.scene7.com/is/image/FalabellaCO/63561425_9?wid=800&hei=800&qlt=70",
         "squarePic": "",
         "name": "Lavadora de Carga Frontal Extra Grande"
-    },
-    {
-        "id": "Lavadora5",
-        "about": "Lavadora-secadora con tecnología de carga superior, ideal para quienes buscan conveniencia y ahorro de espacio.",
-        "picture": "https://electroluxco.vtexassets.com/arquivos/ids/161521/57KS12PA6F4YMXNV.jpg?v=637941251511300000",
-        "squarePic": "",
-        "name": "Lavadora Secadora de Carga Superior"
     }
 ]
+
 
 function crearEstructuraHTML(lavadora) {
     const divLavadora = document.createElement('div');
@@ -117,6 +113,8 @@ function cargarLavadoras(lavadoras, contenedor) {
 }
 
 document.addEventListener('DOMContentLoaded', function () {
+    const contenedorLavadoras1 = document.getElementById('lavadoras1');
     const contenedorLavadoras = document.getElementById('lavadoras');
     cargarLavadoras(lavadoras, contenedorLavadoras);
+    cargarLavadoras(Lavadoras1,contenedorLavadoras1)
 });

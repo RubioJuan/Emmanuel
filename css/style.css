@@ -272,8 +272,19 @@ body{
         font-size: 14px;
     }
 }
-
-
+#neveras,
+#neveras1,
+#secadoras1,
+#secadoras,
+#lavadoras,
+#lavadoras1,
+#aires,
+#aires1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+}
 /* Estilos para el contenedor principal */
 .contenedor {
     display: flex;
@@ -294,7 +305,7 @@ body{
 }
 
 /* Estilos para cada aire acondicionado */
-.aire, .lavadora{
+.aire, .lavadora, .secadora, .nevera{
     width: 300px;
     background-color: #dac9c9;
     border-radius: 10px;

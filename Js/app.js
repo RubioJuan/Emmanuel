@@ -13,7 +13,9 @@ const aires = [
         "picture": "https://f.fcdn.app/imgs/bf73bd/www.mdeofertas.uy/mdofuy/16dd/original/catalogo/JTSEEN254D-EP24094_JTSEEN254D-EP24094_3/1500-1500/aire-acondicionado-portatil-usb-enfriador-a-base-de-agua-aire-acondicionado-portatil-usb-enfriador-a-base-de-agua.jpg",
     "squarePic": "https://http2.mlstatic.com/D_NQ_NP_669315-MLA50820222361_072022-O.webp",
         "name": "Aire Acondicionado Portátil"
-    },
+    }
+]
+const aires1 =[
     {
         "id": "Aire3",
         "about": "Instalado en un lugar central, el aire acondicionado central distribuye aire frío a través de conductos, ideal para edificios grandes.",
@@ -39,7 +41,7 @@ function crearEstructuraHTML(aire) {
     divTitulo1.classList.add('div-titulo1');
 
     const img = document.createElement('img');
-    img.src = aire.picture;
+    img.src = aire.picture; // Corregido para acceder a la propiedad picture
     img.alt = aire.name;
 
     const br = document.createElement('br');
@@ -65,7 +67,7 @@ function crearEstructuraHTML(aire) {
     p.textContent = aire.about;
 
     const imgSquare = document.createElement('img');
-    imgSquare.src = aire.squarePic;
+    imgSquare.src = aire.squarePic; // Corregido para acceder a la propiedad squarePic
     imgSquare.alt = aire.name;
 
     divTitulo1.appendChild(img);
@@ -118,5 +120,7 @@ function cargarAires(aires, contenedor) {
 // Cargar los aires acondicionados al cargar la página
 document.addEventListener('DOMContentLoaded', function () {
     const contenedorAires = document.getElementById('aires');
-    cargarAires(aires, contenedorAires);
+    const contenedorAires1 = document.getElementById('aires1')
+    cargarAires(aires,contenedorAires)
+    cargarAires(aires1, contenedorAires1);
 });
