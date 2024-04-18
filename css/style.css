@@ -272,6 +272,12 @@ body{
         font-size: 14px;
     }
 }
+#calentadores1,
+#calentadores,
+#estufas,
+#estufas1,
+#tv1,
+#tv,
 #neveras,
 #neveras1,
 #secadoras1,
@@ -305,7 +311,7 @@ body{
 }
 
 /* Estilos para cada aire acondicionado */
-.aire, .lavadora, .secadora, .nevera{
+.aire, .lavadora, .secadora, .nevera, .tv, .estufa, .calentador{
     width: 300px;
     background-color: #dac9c9;
     border-radius: 10px;
