@@ -1,17 +1,17 @@
-//Secadoras acondicionados
+//Secadoras
 const secadoras = [
     {
         "id": "Secadora1",
         "about": "Con una capacidad generosa y múltiples configuraciones de secado, la secadora de carga frontal es eficiente y su diseño ahorra espacio, ideal para hogares modernos.",
-        "picture": "https://f.fcdn.app/imgs/bf73bd/www.mdeofertas.uy/mdofuy/16dd/original/catalogo/JTSEEN254D-EP24094_JTSEEN254D-EP24094_3/1500-1500/aire-acondicionado-portatil-usb-enfriador-a-base-de-agua-aire-acondicionado-portatil-usb-enfriador-a-base-de-agua.jpg",
-        "squarePic": "https://images-na.ssl-images-amazon.com/images/I/71xXmN2JTZL._AC_SX679_.jpg",
+        "picture": "https://www.lg.com/content/dam/channel/wcms/co/images/lavadoras-y-secadoras/df22vv2sb_asselat_escb_co_c/450.jpg",
+        "squarePic": "",
         "name": "Secadora de Carga Frontal"
     },
     {
         "id": "Secadora2",
         "about": "Compacta y versátil, la secadora de carga superior es fácil de usar y se adapta a espacios más pequeños, perfecta para apartamentos y lavanderías con espacio limitado.",
-        "picture": "https://f.fcdn.app/imgs/bf73bd/www.mdeofertas.uy/mdofuy/16dd/original/catalogo/JTSEEN254D-EP24094_JTSEEN254D-EP24094_3/1500-1500/aire-acondicionado-portatil-usb-enfriador-a-base-de-agua-aire-acondicionado-portatil-usb-enfriador-a-base-de-agua.jpg",
-        "squarePic": "https://m.media-amazon.com/images/I/71jVdO+OXrL._AC_SL1500_.jpg",
+        "picture": "https://www.alkosto.com/medias/883049622538-001-750Wx750H?context=bWFzdGVyfGltYWdlc3w1OTEyfGltYWdlL3dlYnB8YURrM0wyaGpaQzh4TkRNeU56Z3pNVFl5TlRjMU9DODRPRE13TkRrMk1qSTFNemhmTURBeFh6YzFNRmQ0TnpVd1NBfDEyZDllMWRkNDBkZmM5M2M5MWIyNGNkZTJjNTI0M2MwMjYyNzZmMjYyMDhjNzgxYWFhNTkyMzEwMmFiYjNkYjM",
+        "squarePic": "",
         "name": "Secadora de Carga Superior"
     }
 ]
@@ -20,15 +20,15 @@ const secadoras1 = [
     {
         "id": "Secadora3",
         "about": "La secadora de gas natural ofrece un secado rápido y eficiente, con costos operativos más bajos que las secadoras eléctricas, ideal para aquellos que buscan un rendimiento potente y económico.",
-        "picture": "https://f.fcdn.app/imgs/bf73bd/www.mdeofertas.uy/mdofuy/16dd/original/catalogo/JTSEEN254D-EP24094_JTSEEN254D-EP24094_3/1500-1500/aire-acondicionado-portatil-usb-enfriador-a-base-de-agua-aire-acondicionado-portatil-usb-enfriador-a-base-de-agua.jpg",
-        "squarePic": "https://images-na.ssl-images-amazon.com/images/I/81TSvmisIgL._AC_SL1500_.jpg",
+        "picture": "https://whirlpoolco.vtexassets.com/arquivos/ids/157609/7MWGD6605MC-01--1-.jpg?v=638320508292170000",
+        "squarePic": "",
         "name": "Secadora de Gas Natural"
     },
     {
         "id": "Secadora4",
         "about": "Con funciones inteligentes y conectividad Wi-Fi, la secadora inteligente ofrece conveniencia y control remoto a través de dispositivos móviles, perfecta para aquellos que desean gestionar su lavandería desde cualquier lugar.",
-        "picture": "https://f.fcdn.app/imgs/bf73bd/www.mdeofertas.uy/mdofuy/16dd/original/catalogo/JTSEEN254D-EP24094_JTSEEN254D-EP24094_3/1500-1500/aire-acondicionado-portatil-usb-enfriador-a-base-de-agua-aire-acondicionado-portatil-usb-enfriador-a-base-de-agua.jpg",
-        "squarePic": "https://m.media-amazon.com/images/I/71d7tmEsfJL._AC_SL1500_.jpg",
+        "picture": "https://img.global.news.samsung.com/co/wp-content/uploads/2022/05/Samsung_-FLWM4.png",
+        "squarePic": "",
         "name": "Secadora Inteligente"
     }
 ]

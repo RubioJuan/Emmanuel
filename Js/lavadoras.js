@@ -1,3 +1,4 @@
+// Lavadoras
 const lavadoras = [
     {
         "id": "Lavadora1",
@@ -8,19 +9,20 @@ const lavadoras = [
     },
     {
         "id": "Lavadora2",
-        "about": "Lavadora de carga superior con sistema de lavado por agitación, perfecta para espacios reducidos.",
-        "picture": "https://electroluxco.vtexassets.com/arquivos/ids/161489/XS0BZL8B59JA20WQ.jpg?v=637931682942400000",
-        "squarePic": "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img/https://www.hisensecac.com/wp-content/uploads/2023/02/570x480-wty2302T-Producto6.jpg",
-        "name": "Lavadora de Carga Superior"
+        "about": "Lavadora-secadora con capacidad para 10 kg de lavado y 6 kg de secado, ideal para hogares con poco espacio.",
+        "picture": "https://www.lg.com/content/dam/channel/wcms/co/images/lavadoras-y-secadoras/wd16eg2s6_aesecol_escb_co_c/gallery/Medium_01.jpg",
+        "squarePic": "",
+        "name": "Lavadora Secadora"
+     
     }
 ]
 const Lavadoras1 = [
     {
         "id": "Lavadora3",
-        "about": "Lavadora-secadora con capacidad para 10 kg de lavado y 6 kg de secado, ideal para hogares con poco espacio.",
-        "picture": "https://www.lg.com/content/dam/channel/wcms/co/images/lavadoras-y-secadoras/wd16eg2s6_aesecol_escb_co_c/gallery/Medium_01.jpg",
-        "squarePic": "https://cdn1.totalcommerce.cloud/mercacentro/product-zoom/es/lavadora-secadora-samsung-carga-frontal-48-libras-%2822-kg%29-inox.-wd22t6500gp-12.webp",
-        "name": "Lavadora Secadora"
+        "about": "Lavadora de carga superior con sistema de lavado por agitación, perfecta para espacios reducidos.",
+        "picture": "https://electroluxco.vtexassets.com/arquivos/ids/161489/XS0BZL8B59JA20WQ.jpg?v=637931682942400000",
+        "squarePic": "",
+        "name": "Lavadora de Carga Superior"
     },
     {
         "id": "Lavadora4",

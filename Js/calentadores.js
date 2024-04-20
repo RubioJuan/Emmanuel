@@ -1,37 +1,38 @@
-// calentadores acondicionados
-const calnetadores = [
+// Calentadores
+const calentadores = [
     {
-        "id": "Secadora1",
-        "about": "Con una capacidad generosa y múltiples configuraciones de secado, la secadora de carga frontal es eficiente y su diseño ahorra espacio, ideal para hogares modernos.",
-        "picture": "https://f.fcdn.app/imgs/bf73bd/www.mdeofertas.uy/mdofuy/16dd/original/catalogo/JTSEEN254D-EP24094_JTSEEN254D-EP24094_3/1500-1500/aire-acondicionado-portatil-usb-enfriador-a-base-de-agua-aire-acondicionado-portatil-usb-enfriador-a-base-de-agua.jpg",
-        "squarePic": "https://images-na.ssl-images-amazon.com/images/I/71xXmN2JTZL._AC_SX679_.jpg",
-        "name": "Secadora de Carga Frontal"
+        "id": "CalentadorDeAgua1",
+        "about": "El calentador de agua instantáneo proporciona agua caliente al instante sin necesidad de un tanque de almacenamiento, ideal para ahorrar espacio y energía en hogares pequeños o apartamentos.",
+        "picture": "https://http2.mlstatic.com/D_NQ_NP_658979-CBT53523325780_012023-O.webp",
+        "squarePic": "URL_IMAGEN",
+        "name": "Calentador de Agua Instantáneo"
     },
     {
-        "id": "Secadora2",
-        "about": "Compacta y versátil, la secadora de carga superior es fácil de usar y se adapta a espacios más pequeños, perfecta para apartamentos y lavanderías con espacio limitado.",
-        "picture": "https://f.fcdn.app/imgs/bf73bd/www.mdeofertas.uy/mdofuy/16dd/original/catalogo/JTSEEN254D-EP24094_JTSEEN254D-EP24094_3/1500-1500/aire-acondicionado-portatil-usb-enfriador-a-base-de-agua-aire-acondicionado-portatil-usb-enfriador-a-base-de-agua.jpg",
-        "squarePic": "https://m.media-amazon.com/images/I/71jVdO+OXrL._AC_SL1500_.jpg",
-        "name": "Secadora de Carga Superior"
+        "id": "CalentadorDeAgua2",
+        "about": "El calentador de agua a gas ofrece un suministro continuo de agua caliente mediante un sistema de calentamiento eficiente y rápido, perfecto para hogares con alta demanda de agua caliente.",
+        "picture": "https://h2otek.com/tienda/wp-content/uploads/2021/04/7556-1.jpg",
+        "squarePic": "URL_IMAGEN",
+        "name": "Calentador de Agua a Gas"
     }
-]
+];
 
 const calentadores1 = [
     {
-        "id": "Secadora3",
-        "about": "La secadora de gas natural ofrece un secado rápido y eficiente, con costos operativos más bajos que las secadoras eléctricas, ideal para aquellos que buscan un rendimiento potente y económico.",
-        "picture": "https://f.fcdn.app/imgs/bf73bd/www.mdeofertas.uy/mdofuy/16dd/original/catalogo/JTSEEN254D-EP24094_JTSEEN254D-EP24094_3/1500-1500/aire-acondicionado-portatil-usb-enfriador-a-base-de-agua-aire-acondicionado-portatil-usb-enfriador-a-base-de-agua.jpg",
-        "squarePic": "https://images-na.ssl-images-amazon.com/images/I/81TSvmisIgL._AC_SL1500_.jpg",
-        "name": "Secadora de Gas Natural"
+        "id": "CalentadorDeAgua3",
+        "about": "El calentador de agua eléctrico utiliza resistencias eléctricas para calentar el agua en un tanque de almacenamiento, ofreciendo una solución fácil de instalar y mantener, ideal para hogares sin acceso a gas natural.",
+        "picture": "https://static.globalimageserver.com/south-america/rheemco/media/uploads/2022/09/IMAGEN-1-CALENTADOR-ELECTRICO-PLUS-ALTA-.png",
+        "squarePic": "URL_IMAGEN",
+        "name": "Calentador de Agua Eléctrico"
     },
     {
-        "id": "Secadora4",
-        "about": "Con funciones inteligentes y conectividad Wi-Fi, la secadora inteligente ofrece conveniencia y control remoto a través de dispositivos móviles, perfecta para aquellos que desean gestionar su lavandería desde cualquier lugar.",
-        "picture": "https://f.fcdn.app/imgs/bf73bd/www.mdeofertas.uy/mdofuy/16dd/original/catalogo/JTSEEN254D-EP24094_JTSEEN254D-EP24094_3/1500-1500/aire-acondicionado-portatil-usb-enfriador-a-base-de-agua-aire-acondicionado-portatil-usb-enfriador-a-base-de-agua.jpg",
-        "squarePic": "https://m.media-amazon.com/images/I/71d7tmEsfJL._AC_SL1500_.jpg",
-        "name": "Secadora Inteligente"
+        "id": "CalentadorDeAgua4",
+        "about": "El calentador de agua solar aprovecha la energía del sol para calentar el agua, reduciendo los costos de energía y la huella de carbono, ideal para regiones con abundante luz solar.",
+        "picture": "https://www.tmsmx.com/wp-content/uploads/2019/11/Calentadores-solares-Epcon-de-tubos-al-vacio-180-1.jpg",
+        "squarePic": "URL_IMAGEN",
+        "name": "Calentador de Agua Solar"
     }
-]
+];
+
 function crearEstructuraHTML(calentador) {
     const divCalentador = document.createElement('div');
     divCalentador.classList.add('calentador');
@@ -115,6 +116,6 @@ function cargarCalentadores(calentador, contenedor) {
 document.addEventListener('DOMContentLoaded', function () {
     const contenedorCalentadores = document.getElementById('calentadores');
     const contenedorCalentadores1 = document.getElementById('calentadores1');
-    cargarCalentadores(calnetadores, contenedorCalentadores);
+    cargarCalentadores(calentadores, contenedorCalentadores);
     cargarCalentadores(calentadores1, contenedorCalentadores1);
 });

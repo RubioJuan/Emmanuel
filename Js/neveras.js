@@ -1,37 +1,39 @@
-//Neveras acondicionados
+// Neveras
 const Neveras = [
     {
-        "id": "Secadora1",
-        "about": "Con una capacidad generosa y múltiples configuraciones de secado, la secadora de carga frontal es eficiente y su diseño ahorra espacio, ideal para hogares modernos.",
-        "picture": "https://f.fcdn.app/imgs/bf73bd/www.mdeofertas.uy/mdofuy/16dd/original/catalogo/JTSEEN254D-EP24094_JTSEEN254D-EP24094_3/1500-1500/aire-acondicionado-portatil-usb-enfriador-a-base-de-agua-aire-acondicionado-portatil-usb-enfriador-a-base-de-agua.jpg",
-        "squarePic": "https://images-na.ssl-images-amazon.com/images/I/71xXmN2JTZL._AC_SX679_.jpg",
-        "name": "Secadora de Carga Frontal"
+        "id": "Nevera1",
+        "about": "La nevera con congelador inferior ofrece un acceso más conveniente a los alimentos frescos, con un diseño moderno y elegante que se integra bien en cocinas contemporáneas.",
+        "picture": "https://m.media-amazon.com/images/I/619Oc7WWNiL.jpg",
+        "squarePic": "URL_IMAGEN",
+        "name": "Nevera con Congelador Inferior"
     },
     {
-        "id": "Secadora2",
-        "about": "Compacta y versátil, la secadora de carga superior es fácil de usar y se adapta a espacios más pequeños, perfecta para apartamentos y lavanderías con espacio limitado.",
-        "picture": "https://f.fcdn.app/imgs/bf73bd/www.mdeofertas.uy/mdofuy/16dd/original/catalogo/JTSEEN254D-EP24094_JTSEEN254D-EP24094_3/1500-1500/aire-acondicionado-portatil-usb-enfriador-a-base-de-agua-aire-acondicionado-portatil-usb-enfriador-a-base-de-agua.jpg",
-        "squarePic": "https://m.media-amazon.com/images/I/71jVdO+OXrL._AC_SL1500_.jpg",
-        "name": "Secadora de Carga Superior"
+        "id": "Nevera2",
+        "about": "Compacta y eficiente, la nevera de una puerta es ideal para espacios pequeños como cocinas de apartamentos o habitaciones de hotel, ofreciendo un almacenamiento conveniente de alimentos frescos.",
+        "picture": "https://exhibirequipos.com/wp-content/uploads/2017/03/refrigerador-de-una-ala.jpg",
+        "squarePic": "URL_IMAGEN",
+        "name": "Nevera de Una Puerta"
+        
     }
-]
+];
 
 const Neveras1 = [
     {
-        "id": "Secadora3",
-        "about": "La secadora de gas natural ofrece un secado rápido y eficiente, con costos operativos más bajos que las secadoras eléctricas, ideal para aquellos que buscan un rendimiento potente y económico.",
-        "picture": "https://f.fcdn.app/imgs/bf73bd/www.mdeofertas.uy/mdofuy/16dd/original/catalogo/JTSEEN254D-EP24094_JTSEEN254D-EP24094_3/1500-1500/aire-acondicionado-portatil-usb-enfriador-a-base-de-agua-aire-acondicionado-portatil-usb-enfriador-a-base-de-agua.jpg",
-        "squarePic": "https://images-na.ssl-images-amazon.com/images/I/81TSvmisIgL._AC_SL1500_.jpg",
-        "name": "Secadora de Gas Natural"
+        "id": "Nevera3",
+        "about": "La nevera de dos puertas ofrece amplio espacio de almacenamiento para alimentos frescos y congelados, con características como dispensador de agua y hielo, perfecta para familias grandes.",
+        "picture": "https://www.fecoycia.com/wp-content/uploads/2019/01/084a-REFRIGERADOR-2-PUERTAS.jpg",
+        "squarePic": "URL_IMAGEN",
+        "name": "Nevera de Dos Puertas"
     },
     {
-        "id": "Secadora4",
-        "about": "Con funciones inteligentes y conectividad Wi-Fi, la secadora inteligente ofrece conveniencia y control remoto a través de dispositivos móviles, perfecta para aquellos que desean gestionar su lavandería desde cualquier lugar.",
-        "picture": "https://f.fcdn.app/imgs/bf73bd/www.mdeofertas.uy/mdofuy/16dd/original/catalogo/JTSEEN254D-EP24094_JTSEEN254D-EP24094_3/1500-1500/aire-acondicionado-portatil-usb-enfriador-a-base-de-agua-aire-acondicionado-portatil-usb-enfriador-a-base-de-agua.jpg",
-        "squarePic": "https://m.media-amazon.com/images/I/71d7tmEsfJL._AC_SL1500_.jpg",
-        "name": "Secadora Inteligente"
+        "id": "Nevera4",
+        "about": "La nevera compacta es perfecta para espacios limitados como dormitorios de estudiantes o áreas de trabajo, ofreciendo almacenamiento básico de alimentos sin ocupar demasiado espacio.",
+        "picture": "https://www.emergalia.com/scripts/timthumb/timthumb.php?src=images/articulos/416_675.jpg&h=560&w=560&a=c&q=100",
+        "squarePic": "URL_IMAGEN",
+        "name": "Nevera Compacta"
     }
-]
+];
+
 
 // Función para crear la estructura HTML de una nevera
 function crearEstructuraHTML(nevera) {

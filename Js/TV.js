@@ -1,37 +1,37 @@
-// Televisores acondicionados
+// Televisores
 const Tv = [
     {
-        "id": "Secadora1",
-        "about": "Con una capacidad generosa y múltiples configuraciones de secado, la secadora de carga frontal es eficiente y su diseño ahorra espacio, ideal para hogares modernos.",
-        "picture": "https://f.fcdn.app/imgs/bf73bd/www.mdeofertas.uy/mdofuy/16dd/original/catalogo/JTSEEN254D-EP24094_JTSEEN254D-EP24094_3/1500-1500/aire-acondicionado-portatil-usb-enfriador-a-base-de-agua-aire-acondicionado-portatil-usb-enfriador-a-base-de-agua.jpg",
-        "squarePic": "https://images-na.ssl-images-amazon.com/images/I/71xXmN2JTZL._AC_SX679_.jpg",
-        "name": "Secadora de Carga Frontal"
+        "id": "Tv1",
+        "about": "El televisor de pantalla plana ofrece imágenes nítidas y colores vibrantes, con resolución Full HD para una experiencia de visualización inmersiva, ideal para salas de estar y dormitorios.",
+        "picture": "https://compucentro.co/wp-content/uploads/1661464311.jpg",
+        "squarePic": "URL_IMAGEN",
+        "name": "Televisor de Pantalla Plana"
     },
     {
-        "id": "Secadora2",
-        "about": "Compacta y versátil, la secadora de carga superior es fácil de usar y se adapta a espacios más pequeños, perfecta para apartamentos y lavanderías con espacio limitado.",
-        "picture": "https://f.fcdn.app/imgs/bf73bd/www.mdeofertas.uy/mdofuy/16dd/original/catalogo/JTSEEN254D-EP24094_JTSEEN254D-EP24094_3/1500-1500/aire-acondicionado-portatil-usb-enfriador-a-base-de-agua-aire-acondicionado-portatil-usb-enfriador-a-base-de-agua.jpg",
-        "squarePic": "https://m.media-amazon.com/images/I/71jVdO+OXrL._AC_SL1500_.jpg",
-        "name": "Secadora de Carga Superior"
+        "id": "Tv2",
+        "about": "Con tecnología LED y resolución 4K, este televisor ofrece una calidad de imagen excepcional con detalles ultra claros y colores realistas, perfecto para disfrutar de películas, deportes y juegos.",
+        "picture": "https://lasus.com.co/91516-large_default/televisor-samsung-flat-led-smart-tv-43-pulgadas-uhd-4k-3840-x-2160-dvb-t2-bluetooth-airplay-2-bixby-hdmi-x.jpg",
+        "squarePic": "URL_IMAGEN",
+        "name": "Televisor LED 4K"
     }
-]
+];
 
 const Tv1 = [
     {
-        "id": "Secadora3",
-        "about": "La secadora de gas natural ofrece un secado rápido y eficiente, con costos operativos más bajos que las secadoras eléctricas, ideal para aquellos que buscan un rendimiento potente y económico.",
-        "picture": "https://f.fcdn.app/imgs/bf73bd/www.mdeofertas.uy/mdofuy/16dd/original/catalogo/JTSEEN254D-EP24094_JTSEEN254D-EP24094_3/1500-1500/aire-acondicionado-portatil-usb-enfriador-a-base-de-agua-aire-acondicionado-portatil-usb-enfriador-a-base-de-agua.jpg",
-        "squarePic": "https://images-na.ssl-images-amazon.com/images/I/81TSvmisIgL._AC_SL1500_.jpg",
-        "name": "Secadora de Gas Natural"
+        "id": "Tv3",
+        "about": "El televisor inteligente viene con funciones inteligentes integradas, como acceso a servicios de transmisión en línea, control por voz y compatibilidad con dispositivos móviles, para una experiencia de entretenimiento completa.",
+        "picture": "https://m.media-amazon.com/images/I/81B5mN7a6pL.jpg",
+        "squarePic": "URL_IMAGEN",
+        "name": "Televisor Inteligente"
     },
     {
-        "id": "Secadora4",
-        "about": "Con funciones inteligentes y conectividad Wi-Fi, la secadora inteligente ofrece conveniencia y control remoto a través de dispositivos móviles, perfecta para aquellos que desean gestionar su lavandería desde cualquier lugar.",
-        "picture": "https://f.fcdn.app/imgs/bf73bd/www.mdeofertas.uy/mdofuy/16dd/original/catalogo/JTSEEN254D-EP24094_JTSEEN254D-EP24094_3/1500-1500/aire-acondicionado-portatil-usb-enfriador-a-base-de-agua-aire-acondicionado-portatil-usb-enfriador-a-base-de-agua.jpg",
-        "squarePic": "https://m.media-amazon.com/images/I/71d7tmEsfJL._AC_SL1500_.jpg",
-        "name": "Secadora Inteligente"
+        "id": "Tv4",
+        "about": "El televisor curvo ofrece una experiencia de visualización envolvente, con un diseño elegante y características avanzadas como HDR para un contraste impresionante, ideal para cinéfilos y jugadores exigentes.",
+        "picture": "https://exitocol.vtexassets.com/arquivos/ids/2053215/Tv-Led-80-Cms-32-Smart-Curv-1516955_c.jpg?v=637270328074230000",
+        "squarePic": "URL_IMAGEN",
+        "name": "Televisor Curvo"
     }
-]
+];
 
 
 function crearEstructuraHTML(tv) {

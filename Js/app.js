@@ -1,11 +1,12 @@
 //Aires acondicionados
 const aires = [
     {
+        
         "id": "Aire1",
-        "about": "Compuesto por una unidad interior y otra exterior, el aire acondicionado tipo split es eficiente y silencioso, ideal para espacios interiores.",
-        "picture": "https://instrumentosdemedicion.org/wp-content/uploads/2023/06/Aire-Acondiconado-Split.jpg",
-    "squarePic": "https://www.climadesign.com.ar/admin/upload_files/info_19ca14e7ea6328a42e0eb13d585e4c22/JPEG/20160229-121132_Imagenes-informativas-web.jpg",
-        "name": "Aire Acondicionado Tipo Split"
+        "about": "Instalado en un lugar central, el aire acondicionado central distribuye aire frío a través de conductos, ideal para edificios grandes.",
+        "picture": "https://uniclima.net/wp-content/uploads/2022/06/01_main-6.jpg",
+    "squarePic": "https://www.carriercca.com/imagebank/Carrier/01_central_air_conditioners/performance_series/24ACB7/01_main.jpg",
+        "name": "Aire Acondicionado Central"
     },
     {
         "id": "Aire2",
@@ -18,10 +19,10 @@ const aires = [
 const aires1 =[
     {
         "id": "Aire3",
-        "about": "Instalado en un lugar central, el aire acondicionado central distribuye aire frío a través de conductos, ideal para edificios grandes.",
-        "picture": "https://uniclima.net/wp-content/uploads/2022/06/01_main-6.jpg",
-    "squarePic": "https://www.carriercca.com/imagebank/Carrier/01_central_air_conditioners/performance_series/24ACB7/01_main.jpg",
-        "name": "Aire Acondicionado Central"
+        "about": "Compuesto por una unidad interior y otra exterior, el aire acondicionado tipo split es eficiente y silencioso, ideal para espacios interiores.",
+        "picture": "https://instrumentosdemedicion.org/wp-content/uploads/2023/06/Aire-Acondiconado-Split.jpg",
+    "squarePic": "https://www.climadesign.com.ar/admin/upload_files/info_19ca14e7ea6328a42e0eb13d585e4c22/JPEG/20160229-121132_Imagenes-informativas-web.jpg",
+        "name": "Aire Acondicionado Tipo Split"
     },
     {
         "id": "Aire4",

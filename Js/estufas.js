@@ -1,37 +1,37 @@
-// estufas acondicionados
+// Estufas
 const estufas = [
     {
-        "id": "Secadora1",
-        "about": "Con una capacidad generosa y múltiples configuraciones de secado, la secadora de carga frontal es eficiente y su diseño ahorra espacio, ideal para hogares modernos.",
-        "picture": "https://f.fcdn.app/imgs/bf73bd/www.mdeofertas.uy/mdofuy/16dd/original/catalogo/JTSEEN254D-EP24094_JTSEEN254D-EP24094_3/1500-1500/aire-acondicionado-portatil-usb-enfriador-a-base-de-agua-aire-acondicionado-portatil-usb-enfriador-a-base-de-agua.jpg",
-        "squarePic": "https://images-na.ssl-images-amazon.com/images/I/71xXmN2JTZL._AC_SX679_.jpg",
-        "name": "Secadora de Carga Frontal"
+        "id": "Estufa1",
+        "about": "La estufa de gas proporciona un calor potente y rápido, ideal para calentar grandes espacios en poco tiempo, perfecta para usar en hogares o talleres.",
+        "picture": "https://challengerco.vteximg.com.br/arquivos/ids/159258-1000-1000/SD6140_1.jpg?v=637668004471200000",
+        "squarePic": "URL_IMAGEN",
+        "name": "Estufa de Gas"
     },
     {
-        "id": "Secadora2",
-        "about": "Compacta y versátil, la secadora de carga superior es fácil de usar y se adapta a espacios más pequeños, perfecta para apartamentos y lavanderías con espacio limitado.",
-        "picture": "https://f.fcdn.app/imgs/bf73bd/www.mdeofertas.uy/mdofuy/16dd/original/catalogo/JTSEEN254D-EP24094_JTSEEN254D-EP24094_3/1500-1500/aire-acondicionado-portatil-usb-enfriador-a-base-de-agua-aire-acondicionado-portatil-usb-enfriador-a-base-de-agua.jpg",
-        "squarePic": "https://m.media-amazon.com/images/I/71jVdO+OXrL._AC_SL1500_.jpg",
-        "name": "Secadora de Carga Superior"
+        "id": "Estufa2",
+        "about": "Compacta y eficiente, la estufa eléctrica ofrece un calentamiento uniforme y control preciso de la temperatura, ideal para espacios más pequeños como dormitorios o salas de estar.",
+        "picture": "https://abba.com.co/wp-content/uploads/2022/03/estufa-de-empotrar-abba-ce-4plx-4-puestos-electrica-acero-inoxidable-2.jpg",
+        "squarePic": "URL_IMAGEN",
+        "name": "Estufa Eléctrica"
     }
-]
+];
 
 const estufas1 = [
     {
-        "id": "Secadora3",
-        "about": "La secadora de gas natural ofrece un secado rápido y eficiente, con costos operativos más bajos que las secadoras eléctricas, ideal para aquellos que buscan un rendimiento potente y económico.",
-        "picture": "https://f.fcdn.app/imgs/bf73bd/www.mdeofertas.uy/mdofuy/16dd/original/catalogo/JTSEEN254D-EP24094_JTSEEN254D-EP24094_3/1500-1500/aire-acondicionado-portatil-usb-enfriador-a-base-de-agua-aire-acondicionado-portatil-usb-enfriador-a-base-de-agua.jpg",
-        "squarePic": "https://images-na.ssl-images-amazon.com/images/I/81TSvmisIgL._AC_SL1500_.jpg",
-        "name": "Secadora de Gas Natural"
+        "id": "Estufa3",
+        "about": "La estufa de pellets utiliza pellets de madera como combustible, ofreciendo una opción sostenible y eficiente energéticamente para calentar el hogar, con la ventaja de una llama visible y un control termostático.",
+        "picture": "https://www.todochimeneas.com/blog/wp-content/uploads/2013/02/Estufa-Pellet-Ecoteck-Monica.jpg",
+        "squarePic": "URL_IMAGEN",
+        "name": "Estufa de Pellets"
     },
     {
-        "id": "Secadora4",
-        "about": "Con funciones inteligentes y conectividad Wi-Fi, la secadora inteligente ofrece conveniencia y control remoto a través de dispositivos móviles, perfecta para aquellos que desean gestionar su lavandería desde cualquier lugar.",
-        "picture": "https://f.fcdn.app/imgs/bf73bd/www.mdeofertas.uy/mdofuy/16dd/original/catalogo/JTSEEN254D-EP24094_JTSEEN254D-EP24094_3/1500-1500/aire-acondicionado-portatil-usb-enfriador-a-base-de-agua-aire-acondicionado-portatil-usb-enfriador-a-base-de-agua.jpg",
-        "squarePic": "https://m.media-amazon.com/images/I/71d7tmEsfJL._AC_SL1500_.jpg",
-        "name": "Secadora Inteligente"
+        "id": "Estufa4",
+        "about": "La estufa de parafina es una opción portátil y fácil de usar, ideal para calefacción de emergencia en áreas sin acceso a la red eléctrica o gas, con bajo consumo de combustible y una llama limpia.",
+        "picture": "https://www.outlet-piscinas.com/media/catalog/product/e/s/estufa-parafina-qlima-tectro-r-133-tc.jpg",
+        "squarePic": "URL_IMAGEN",
+        "name": "Estufa de Parafina"
     }
-]
+];
 
 
 function crearEstructuraHTML(estufa) {
