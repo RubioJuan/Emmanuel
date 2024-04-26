@@ -4,14 +4,14 @@ const Neveras = [
         "id": "Nevera1",
         "about": "La nevera con congelador inferior ofrece un acceso más conveniente a los alimentos frescos, con un diseño moderno y elegante que se integra bien en cocinas contemporáneas.",
         "picture": "https://m.media-amazon.com/images/I/619Oc7WWNiL.jpg",
-        "squarePic": "URL_IMAGEN",
+        "squarePic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-d2WaMbF8LUwAQBr_xrbkY5l6r7jbPKGMukV5nIMoPA&s",
         "name": "Nevera con Congelador Inferior"
     },
     {
         "id": "Nevera2",
         "about": "Compacta y eficiente, la nevera de una puerta es ideal para espacios pequeños como cocinas de apartamentos o habitaciones de hotel, ofreciendo un almacenamiento conveniente de alimentos frescos.",
         "picture": "https://exhibirequipos.com/wp-content/uploads/2017/03/refrigerador-de-una-ala.jpg",
-        "squarePic": "URL_IMAGEN",
+        "squarePic": "https://www.grupozingal.co/wp-content/uploads/2018/12/REFRIGERADORINDUSTRIAL1puerta1.png",
         "name": "Nevera de Una Puerta"
         
     }
@@ -22,14 +22,14 @@ const Neveras1 = [
         "id": "Nevera3",
         "about": "La nevera de dos puertas ofrece amplio espacio de almacenamiento para alimentos frescos y congelados, con características como dispensador de agua y hielo, perfecta para familias grandes.",
         "picture": "https://www.fecoycia.com/wp-content/uploads/2019/01/084a-REFRIGERADOR-2-PUERTAS.jpg",
-        "squarePic": "URL_IMAGEN",
+        "squarePic": "https://i.pinimg.com/236x/10/87/b5/1087b5aba5eb4aff82b46e7039ba55c5.jpg",
         "name": "Nevera de Dos Puertas"
     },
     {
         "id": "Nevera4",
         "about": "La nevera compacta es perfecta para espacios limitados como dormitorios de estudiantes o áreas de trabajo, ofreciendo almacenamiento básico de alimentos sin ocupar demasiado espacio.",
         "picture": "https://www.emergalia.com/scripts/timthumb/timthumb.php?src=images/articulos/416_675.jpg&h=560&w=560&a=c&q=100",
-        "squarePic": "URL_IMAGEN",
+        "squarePic": "https://cdn.idealo.com/folder/Product/201243/4/201243432/s11_produktbild_mittelgross/cecotec-grandcooler-20000-silentcompress-black.jpg",
         "name": "Nevera Compacta"
     }
 ];

@@ -4,14 +4,14 @@ const Tv = [
         "id": "Tv1",
         "about": "El televisor de pantalla plana ofrece imágenes nítidas y colores vibrantes, con resolución Full HD para una experiencia de visualización inmersiva, ideal para salas de estar y dormitorios.",
         "picture": "https://compucentro.co/wp-content/uploads/1661464311.jpg",
-        "squarePic": "URL_IMAGEN",
+        "squarePic": "https://images.philips.com/is/image/philipsconsumer/9408f66463d84cfda689afb900794add?fit=fit&hei=300&wid=250&$jpglarge$",
         "name": "Televisor de Pantalla Plana"
     },
     {
         "id": "Tv2",
         "about": "Con tecnología LED y resolución 4K, este televisor ofrece una calidad de imagen excepcional con detalles ultra claros y colores realistas, perfecto para disfrutar de películas, deportes y juegos.",
         "picture": "https://lasus.com.co/91516-large_default/televisor-samsung-flat-led-smart-tv-43-pulgadas-uhd-4k-3840-x-2160-dvb-t2-bluetooth-airplay-2-bixby-hdmi-x.jpg",
-        "squarePic": "URL_IMAGEN",
+        "squarePic": "https://www.lg.com/content/dam/channel/wcms/co/images/televisores/55ur7800psb_awc_escb_co_c/gallery/small03.jpg",
         "name": "Televisor LED 4K"
     }
 ];
@@ -21,14 +21,14 @@ const Tv1 = [
         "id": "Tv3",
         "about": "El televisor inteligente viene con funciones inteligentes integradas, como acceso a servicios de transmisión en línea, control por voz y compatibilidad con dispositivos móviles, para una experiencia de entretenimiento completa.",
         "picture": "https://m.media-amazon.com/images/I/81B5mN7a6pL.jpg",
-        "squarePic": "URL_IMAGEN",
+        "squarePic": "https://almacenesjapon.com/13241-home_default/-tv-lg-led-32lq630bpsa.jpg",
         "name": "Televisor Inteligente"
     },
     {
         "id": "Tv4",
         "about": "El televisor curvo ofrece una experiencia de visualización envolvente, con un diseño elegante y características avanzadas como HDR para un contraste impresionante, ideal para cinéfilos y jugadores exigentes.",
         "picture": "https://exitocol.vtexassets.com/arquivos/ids/2053215/Tv-Led-80-Cms-32-Smart-Curv-1516955_c.jpg?v=637270328074230000",
-        "squarePic": "URL_IMAGEN",
+        "squarePic": "https://www.manual.ar/thumbs/products/s/762676-samsung-ue49k5500ak.jpg",
         "name": "Televisor Curvo"
     }
 ];

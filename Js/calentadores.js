@@ -4,14 +4,14 @@ const calentadores = [
         "id": "CalentadorDeAgua1",
         "about": "El calentador de agua instantáneo proporciona agua caliente al instante sin necesidad de un tanque de almacenamiento, ideal para ahorrar espacio y energía en hogares pequeños o apartamentos.",
         "picture": "https://http2.mlstatic.com/D_NQ_NP_658979-CBT53523325780_012023-O.webp",
-        "squarePic": "URL_IMAGEN",
+        "squarePic": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/695e9e51-0af3-48a0-9266-51677fc9be48.__CR0,0,150,300_PT0_SX150_V1___.jpg",
         "name": "Calentador de Agua Instantáneo"
     },
     {
         "id": "CalentadorDeAgua2",
         "about": "El calentador de agua a gas ofrece un suministro continuo de agua caliente mediante un sistema de calentamiento eficiente y rápido, perfecto para hogares con alta demanda de agua caliente.",
         "picture": "https://h2otek.com/tienda/wp-content/uploads/2021/04/7556-1.jpg",
-        "squarePic": "URL_IMAGEN",
+        "squarePic": "https://www.cyberpuerta.mx/img/product/M/CP-RHEEM-HRT-CHL08PLP-479a7b.jpg",
         "name": "Calentador de Agua a Gas"
     }
 ];
@@ -21,14 +21,14 @@ const calentadores1 = [
         "id": "CalentadorDeAgua3",
         "about": "El calentador de agua eléctrico utiliza resistencias eléctricas para calentar el agua en un tanque de almacenamiento, ofreciendo una solución fácil de instalar y mantener, ideal para hogares sin acceso a gas natural.",
         "picture": "https://static.globalimageserver.com/south-america/rheemco/media/uploads/2022/09/IMAGEN-1-CALENTADOR-ELECTRICO-PLUS-ALTA-.png",
-        "squarePic": "URL_IMAGEN",
+        "squarePic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRM-gtp5TLG7jGLXGsqRcwGxdyLQ7akyar5FANhqtQH7KP_jta0smmdNMPUhRrGLblXWpE&usqp=CAU",
         "name": "Calentador de Agua Eléctrico"
     },
     {
         "id": "CalentadorDeAgua4",
         "about": "El calentador de agua solar aprovecha la energía del sol para calentar el agua, reduciendo los costos de energía y la huella de carbono, ideal para regiones con abundante luz solar.",
         "picture": "https://www.tmsmx.com/wp-content/uploads/2019/11/Calentadores-solares-Epcon-de-tubos-al-vacio-180-1.jpg",
-        "squarePic": "URL_IMAGEN",
+        "squarePic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZrKvGJ6Z0QmJ_ufuBDT4VZnl6h8WJDt6NHH47emYdPQ&s",
         "name": "Calentador de Agua Solar"
     }
 ];

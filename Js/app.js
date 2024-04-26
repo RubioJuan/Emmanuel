@@ -1,18 +1,17 @@
 //Aires acondicionados
 const aires = [
-    {
-        
+    {  
         "id": "Aire1",
         "about": "Instalado en un lugar central, el aire acondicionado central distribuye aire frío a través de conductos, ideal para edificios grandes.",
         "picture": "https://uniclima.net/wp-content/uploads/2022/06/01_main-6.jpg",
-    "squarePic": "https://www.carriercca.com/imagebank/Carrier/01_central_air_conditioners/performance_series/24ACB7/01_main.jpg",
+    "squarePic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3TjhY8w23uBPsXrc9sn7eJoo90FGGBdxMY2G4tgOrGQ&s",
         "name": "Aire Acondicionado Central"
     },
     {
         "id": "Aire2",
         "about": "Móvil y fácil de instalar, el aire acondicionado portátil es perfecto para habitaciones donde la instalación fija no es posible.",
         "picture": "https://f.fcdn.app/imgs/bf73bd/www.mdeofertas.uy/mdofuy/16dd/original/catalogo/JTSEEN254D-EP24094_JTSEEN254D-EP24094_3/1500-1500/aire-acondicionado-portatil-usb-enfriador-a-base-de-agua-aire-acondicionado-portatil-usb-enfriador-a-base-de-agua.jpg",
-    "squarePic": "https://http2.mlstatic.com/D_NQ_NP_669315-MLA50820222361_072022-O.webp",
+    "squarePic": "https://lh6.googleusercontent.com/proxy/z1befhMBrJU0vF9fH1iboI-X_1MocFRSgfw8ohV_g2fGZ8qsMZ3iW-F9bR-ZTuYbD7ZSjUO9GLLSTeeUwfvYYt4v4XJF5iZ7ML3a52ZVzoPpE3XA",
         "name": "Aire Acondicionado Portátil"
     }
 ]
@@ -21,14 +20,14 @@ const aires1 =[
         "id": "Aire3",
         "about": "Compuesto por una unidad interior y otra exterior, el aire acondicionado tipo split es eficiente y silencioso, ideal para espacios interiores.",
         "picture": "https://instrumentosdemedicion.org/wp-content/uploads/2023/06/Aire-Acondiconado-Split.jpg",
-    "squarePic": "https://www.climadesign.com.ar/admin/upload_files/info_19ca14e7ea6328a42e0eb13d585e4c22/JPEG/20160229-121132_Imagenes-informativas-web.jpg",
+    "squarePic": "https://cdn.habitium.com/1947555-large_default/aire-acondicionado-de-tipo-split-con-temporizador-para-instalacion-en-pared-kl-fujitsu.jpg?width=240&",
         "name": "Aire Acondicionado Tipo Split"
     },
     {
         "id": "Aire4",
         "about": "Compacto y fácil de instalar en una ventana, el aire acondicionado de ventana es ideal para enfriar habitaciones individuales en hogares o apartamentos.",
         "picture": "https://codigocalderas.com/wp-content/uploads/2022/06/aire-acondicionado-ventana-1024x512.jpg",
-    "squarePic": "https://http2.mlstatic.com/D_NQ_NP_730427-MCO46778312107_072021-O.webp",
+    "squarePic": "https://www.raenco.com/pub/media/catalog/product/cache/025d7fd358df95e93d9e7acd753af033/3/0/3002006.jpg",
         "name": "Aire Acondicionado de Ventana"
     }
 ]

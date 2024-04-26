@@ -4,14 +4,14 @@ const estufas = [
         "id": "Estufa1",
         "about": "La estufa de gas proporciona un calor potente y rápido, ideal para calentar grandes espacios en poco tiempo, perfecta para usar en hogares o talleres.",
         "picture": "https://challengerco.vteximg.com.br/arquivos/ids/159258-1000-1000/SD6140_1.jpg?v=637668004471200000",
-        "squarePic": "URL_IMAGEN",
+        "squarePic": "https://centrocomercialenlinea.com/wp-content/uploads/2021/06/estufa-2-puesto-gas-150x150.jpg",
         "name": "Estufa de Gas"
     },
     {
         "id": "Estufa2",
         "about": "Compacta y eficiente, la estufa eléctrica ofrece un calentamiento uniforme y control preciso de la temperatura, ideal para espacios más pequeños como dormitorios o salas de estar.",
         "picture": "https://abba.com.co/wp-content/uploads/2022/03/estufa-de-empotrar-abba-ce-4plx-4-puestos-electrica-acero-inoxidable-2.jpg",
-        "squarePic": "URL_IMAGEN",
+        "squarePic": "https://www.homeelementsweb.com/wp-content/uploads/2021/10/estufa-electrica-negra-150x150.jpg",
         "name": "Estufa Eléctrica"
     }
 ];
@@ -21,14 +21,14 @@ const estufas1 = [
         "id": "Estufa3",
         "about": "La estufa de pellets utiliza pellets de madera como combustible, ofreciendo una opción sostenible y eficiente energéticamente para calentar el hogar, con la ventaja de una llama visible y un control termostático.",
         "picture": "https://www.todochimeneas.com/blog/wp-content/uploads/2013/02/Estufa-Pellet-Ecoteck-Monica.jpg",
-        "squarePic": "URL_IMAGEN",
+        "squarePic": "https://gruporp.es/3020-home_default/estufa-de-pellets-10kW-canalizable-amg-burn-12c-negro.jpg",
         "name": "Estufa de Pellets"
     },
     {
         "id": "Estufa4",
         "about": "La estufa de parafina es una opción portátil y fácil de usar, ideal para calefacción de emergencia en áreas sin acceso a la red eléctrica o gas, con bajo consumo de combustible y una llama limpia.",
         "picture": "https://www.outlet-piscinas.com/media/catalog/product/e/s/estufa-parafina-qlima-tectro-r-133-tc.jpg",
-        "squarePic": "URL_IMAGEN",
+        "squarePic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0qJhiXeI_cAiMRyB6g_VT4D9tSRDAJ5_8KZRsTqrDDZNyhlFyhIjBJOTKd77JmBBpmR4&usqp=CAU",
         "name": "Estufa de Parafina"
     }
 ];
